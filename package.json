@@ -11,7 +11,7 @@
     "@babel/preset-env": "^7.0.0"
   },
   "scripts": {
-    "transpile": "mkdir -p dist && rm dist/* && babel src/*.js --out-dir dist && cp node_modules/@babel/polyfill/dist/polyfill.min.js dist/polyfill.min.js"
+    "transpile": "mkdir -p dist && rm -f dist/* && babel src/*.js --out-dir dist && cp node_modules/@babel/polyfill/dist/polyfill.min.js dist/polyfill.min.js"
   },
   "author": "",
   "license": "ISC"
